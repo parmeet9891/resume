@@ -54,7 +54,7 @@ class Navbar extends React.Component {
           <Route exact path = "/work" render={(props) => <Hello
                                                           heading = "What I've been up to."
                                                           desc = "Here's a selection of some of my work. Github Links are provided for more reference."
-                                                          avatar = "./Images/pencil1.svg" />} />
+                                                          avatar = "/Images/pencil1.svg" />} />
           <Route exact path="/work" component={Projects} />
           <Route exact path = "/work" component = {Help} />
 
